@@ -1,0 +1,9 @@
+.paragraph {
+  margin: 5px;
+  text-align: right;
+}
+
+.paragraph__subParagraph {
+  margin: 5px;
+  text-align: left;
+}

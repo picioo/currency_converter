@@ -1,0 +1,73 @@
+.form {
+  background-image: url(../img/background-emotka.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: darkgreen;
+  color: #f3f3f3;
+  padding: 9px;
+  border-radius: 20px;
+}
+
+.form__button {
+  width: 100%;
+  border: 3px ridge rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 10px;
+  background-color: rgb(255, 119, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #00716dde;
+}
+
+.form__button:active {
+  background-color: #00ff0d;
+}
+
+.form__buttonClean {
+  width: 100%;
+  border: 3px ridge rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 10px;
+  background-color: rgb(255, 119, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.form__buttonClean:hover {
+  background-color: #00716dde;
+}
+
+.form__buttonClean:active {
+  background-color: #00ff0d;
+}
+
+.form__fieldset {
+  border: 5px solid #ffffff;
+}
+
+.form__labelText {
+  width: 100%;
+  max-width: 300px;
+  margin-left: 3px;
+}
+
+.form__legend {
+  border: 3px ridge #f8f8f8;
+  margin: auto;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.form__select {
+  border: 5px solid #f5f5f6;
+  padding: 8px;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 20px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 200px;
+}
