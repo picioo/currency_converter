@@ -44,7 +44,7 @@
   background-color: #00ff0d;
 }
 
-fieldset {
+.fieldset {
   display: block;
   margin-inline-start: 2px;
   margin-inline-end: 2px;
