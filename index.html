@@ -15,10 +15,12 @@
   <link href="css/form.css" rel="stylesheet" />
   <link href="css/paragraph.css" rel="stylesheet" />
   <link href="css/result.css" rel="stylesheet" />
+  <link href="css/time.css" rel="stylesheet" />
   <script defer src="js/script.js"></script>
+  <script defer src="js/today-is.js"></script>
 </head>
 
-<body class="body">
+<body class="body" onLoad="czas()">
   <div class="container">
     <form class="js-form form">
       <fieldset>
@@ -51,6 +53,8 @@
           </button>
         </p>
       </fieldset>
+      <p>Dzisiaj mamy:</p>
+      <span class="data" id="data"></span>
       <p class="paragraph">* Wymagane pola</p>
     </form>
     <p>
