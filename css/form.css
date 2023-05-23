@@ -81,9 +81,9 @@
   border: 5px solid #f5f5f6;
   padding: 8px;
   width: 100%;
-  max-width: 250px;
+  max-width: 2500px;
   border-radius: 20px;
   text-align: center;
   display: inline-block;
-  margin-left: 200px;
+  margin-left: auto;
 }
